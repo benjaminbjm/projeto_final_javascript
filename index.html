@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+</head>
+<body>
+
+    <h1>Apresentação</h1>
+    <img src="img/photo2.jpg" alt="0" width="500" height="300">
+    <p>
+        Olá! Eu sou Benjamin Ndayigu Mambidibo, natural da República Democrática do Congo e tenho 36 anos.
+        Venho de uma família grande e unida, com cinco irmãs e cinco irmãos. 
+        Cheguei ao Brasil há quase 8 anos e desde então resido em São Paulo. 
+        No Congo, minha paixão era jogar futebol e fazer música por diversão. 
+        Agora, em São Paulo, encontrei na corrida o meu esporte favorito.    
+        Estou animado para compartilhar minha jornada com vocês!
+    </p>
+
+    <h1>Estudos</h1>
+    <p>Após concluir o ensino médio, obtive uma sólida formação acadêmica em diversas áreas. Aqui está um detalhamento das minhas qualificações:</p>
+    <ol>
+        <li><strong>Graduação em Filosofia</strong>
+            <ul>
+                <li>Philosophat Edith-Stein de Kisangani (concluída em julho de 2014)</li>
+            </ul>
+        </li>
+        <li><strong>Graduação em Análise e Desenvolvimento de Sistemas</strong>
+            <ul>
+                <li>Universidade Nove de Julho (concluída em julho de 2022)</li>
+            </ul>
+        </li>
+        <li><strong>Pós-Graduação em Cybersecurity</strong>
+            <ul>
+                <li>Universidade Cruzeiro do Sul (concluída em maio de 2024)</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h1>Visão</h1>
+    <img src="img/photo1.jpg" alt="0" width="500" height="300">
+    <p>
+        Após concluir minha pós-graduação e atualmente estudando programação front-end com a 
+        <a href="https://totidiversidade.com.br/sobre-a-toti/" target="_blank">Toti</a>, meu maior sonho é conquistar minha primeira vaga na área de Tecnologia da Informação. 
+        Quero aprender na prática, crescer profissionalmente e melhorar minha qualidade de vida.
+    </p>
+
+    <h1>Trabalhos</h1>
+    <p>Aqui estão alguns dos meus trabalhos mais recentes:</p>
+    <ul>
+        <li>
+            <a href="https://github.com/benjaminbjm/Projeto-Toti-Cardapio.git" target="_blank">Projeto-Toti-Cardapio</a> - Um sistema para um restaurante local.
+            <img src="img/Projeto-Toti-Cardapio.jpg" alt="Projeto-Toti-Cardapio.jpg " width="500" height="300">
+        </li>
+        <li>
+            <a href="https://github.com/benjaminbjm/javascript_toti.git" target="_blank">javascript_toti</a> - É o primeiro exercicio da aula javascript_toti.
+            <img src="img/javascript_toti.jpg" alt="javascript_toti" width="500" height="300">
+        </li>
+        <li>
+            <a href="https://github.com/benjaminbjm/exercicio2_javascript.git" target="_blank">exercicio2_javascript</a> - Segundo exercicio2_javascript Toti.
+            <img src="img/exercicio2_javascript.jpg" alt="exercicio2_javascript" width="500" height="300">
+        </li>
+    </ul>
+
+    <h2>Contato</h2>
+    <p>
+        Você pode entrar em contato comigo através dos seguintes meios:
+    </p>
+    <ul>
+        <li><strong>Email:</strong> benjamindaygu.com</li>
+        <li><strong>Telefone:</strong> (11) 98347-2210</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/benjamin-mambidibo">linkedin.com/in/benjamin-mambidibo</a></li>
+    </ul>
+
+    <form id="contactForm">
+        <h2>Formulário de Contato</h2>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <div>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Repositórios do GitHub</h2>
+    <ul id="repos"></ul>
+
+       <script src="script.js"> </script>
+
+</body>
+</html>
